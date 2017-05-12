@@ -1,0 +1,15 @@
+version: "2"
+services:
+ web:
+    image: wordpress
+    links:
+     - mysql
+    environment:
+     - WORDPRESS_DB_PASSWORD=sample
+    ports:
+     - "80:80"
+ mysql:
+  image: mysql:latest
+  environment:
+   - MYSQL_ROOT_PASSWORD=sample
+   - MYSQL_DATABASE=wordpress
