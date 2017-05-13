@@ -7,8 +7,10 @@ Usage
 Presentation
 ------------
 
-The presentation is a RST file, you need to use [hovercraft](https://github.com/regebro/hovercraft) to generate the HTML presentation..
+The presentation is a RST file, you need to use hovercraft_ to generate the HTML presentation..
 Check the 'output' dir for the current generated HTML format.
+
+.. _hovercraft: https://github.com/regebro/hovercraft
 
 Workshop
 --------
